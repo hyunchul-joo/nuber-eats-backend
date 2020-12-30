@@ -34,5 +34,5 @@ export class Restaurant {
   @Field(() => String)
   @Column()
   @IsString()
-  catOptionalame: string;
+  categoryName: string;
 }
